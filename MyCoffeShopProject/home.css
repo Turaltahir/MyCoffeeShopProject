@@ -1,0 +1,131 @@
+#home {
+    position: relative;
+    background: url(https://www.amorecoffee.co.uk/wp-content/uploads/2019/01/Enjoy.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 23;
+    margin-bottom: 80px;
+}
+
+h1 {
+    margin-top: 150px;
+    font-size: 35px;
+    color: brown;
+    text-shadow: 5px 5px 5px white;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.about-coffee {
+    color: white;
+    font-size: 22px;
+    font-family: "Dancing Script", Arial, sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    line-height: 1.2;
+    text-shadow: 10px 10px 10px rgb(237, 134, 134);
+}
+
+.bold {
+    color: brown;
+    font-weight: 900;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+#leftSection {
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+.left {
+
+    width: calc(100%/12*3);
+    background-color: white;
+    border-radius: 7px;
+}
+
+
+.middle {
+
+    width: calc(100%/12*6);
+}
+
+.riht {
+    width: calc(100%/12*3);
+}
+
+#historyOfCoffee img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#historyOfCoffee h2 {
+    color: blue;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Dancing Script", Arial, sans-serif;
+    box-shadow: 10px 10px 10px aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#historyOfCoffee p {
+    color: brown;
+    text-align: center;
+    font-family: "Lugrasimo", Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+#coffeeProducts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.coffeeProduct {
+    height: 380px;
+    box-shadow: 0 0 4px -1px black;
+    border-radius: 5px;
+}
+.coffeeProduct img{
+    height:210px ;
+    width: 100%;
+    vertical-align: middle;
+    object-fit:cover;
+    border-radius: 5px;
+}
+.coffeeProduct h3{
+    color: brown;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Lugrasimo", Arial, sans-serif;
+}
+.coffeeProduct p{
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+    font-family: "Dancing Script", Arial, sans-serif;
+}
+.coffeeProduct .price{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+.coffeeProduct span{
+font-weight: 700;
+color: red;
+}
+.coffeeProduct button{
+    background-color: brown;
+    padding: 2px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

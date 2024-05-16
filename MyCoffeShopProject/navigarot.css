@@ -1,0 +1,56 @@
+nav {
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+nav.scroll {
+    background-color: #9A7B4F;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 70px 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px white;
+}
+
+ul li {
+    margin: 5px;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    text-shadow: 5px 5px 5px white;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.search input {
+    padding: 7px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 5px 5px 5px brown;
+    margin-right: 15px;
+    margin-left: 20px;
+    outline: none;
+}
+
+.search button {
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px brown;
+    cursor: pointer;
+}

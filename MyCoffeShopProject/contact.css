@@ -1,0 +1,166 @@
+#contact {
+    margin-bottom: 30px;
+}
+
+ul.dropdownContact li {
+    display: block;
+}
+
+ul.dropdownContact {
+    width: 200px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul.dropdownContact li a {
+    color: grey;
+    margin-bottom: 10px;
+
+}
+
+ul li a:hover {
+    color: brown;
+}
+
+ul li:hover ul.dropdownContact {
+    display: block;
+}
+
+.sendEmail {
+    text-align: center;
+}
+
+.sendEmail h1,
+p {
+    margin-bottom: 20px;
+}
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formElement input {
+    margin-bottom: 15px;
+    padding: 8px 80px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 10px 10px 10px brown;
+    text-align: center;
+    outline: none;
+}
+
+.formElement textarea {
+    width: 325px;
+    height: 200px;
+    border: none;
+    box-shadow: 10px 10px 10px brown;
+    border-radius: 3px;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+.formElement button {
+    margin-top: 20px;
+    padding: 10px 60px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: brown;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", Arial, sans-serif;
+    cursor: pointer;
+}
+
+.formElement span {
+    font-size: 12px;
+    color: blue;
+}
+
+#communication {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.location i {
+    color: rgb(45, 131, 160);
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.call i {
+    color: rgb(45, 131, 160);
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.email i {
+    color: rgb(45, 131, 160);
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.location,
+.call,
+.email p {
+    color: gray;
+}
+
+#footer {
+    background-color: white;
+    height: 150px;
+    padding: 40px;
+}
+
+#footer h2 {
+    color: brown;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 25px;
+}
+
+#footer i {
+    margin-right: 8px;
+    font-size: 50px;
+    color: rgb(45, 131, 160);
+    cursor: pointer;
+}
+
+.form-iframe {
+    width: 50%;
+    margin-top: 160px;
+}
+
+.form-iframe iframe {
+    width: 100%;
+}
+
+.top {
+
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0vuxVBJU7Gktc6H00PZSlVVGTQavKQziq2qmGm1cI9A&s") 50% 30% no-repeat #fff;
+    background-size: 1.3em;
+    border: #cccccc 1px solid;
+    border-radius: 40px;
+    color: #555555;
+    display: inline-block;
+    height: 80px;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    width: 80px;
+    left: 50%;
+}
+
+.countCharacter {
+    display: flex;
+}

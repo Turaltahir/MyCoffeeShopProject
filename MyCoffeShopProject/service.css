@@ -1,0 +1,130 @@
+#services {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#services span {
+    color: brown;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Roboto", Arial, sans-serif;
+    text-shadow: 5px 5px 5px brown;
+    text-transform: uppercase;
+
+}
+
+#services h2 {
+    font-size: 50px;
+    color: blue;
+    margin-top: 20px;
+    font-family: "Lugrasimo", Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.card {
+    box-shadow: 10px 10px 10px brown;
+    width: 450px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.card h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "Roboto", Arial, sans-serif;
+    color: brown;
+}
+
+.card p {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.card i {
+    color: blue;
+    margin: 0 10px 10px 50px;
+    cursor: pointer;
+}
+
+.language {
+    position: fixed;
+    z-index: 1030;
+    bottom: 150px;
+    right: 35px;
+    padding: 20px;
+    
+}
+
+.language li {
+   display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #9A7B4F;
+    display: flex;
+    padding: 10px;
+}
+
+.language li a {
+    font-size: 20px;
+    color: red;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 1030;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+
+}
+
+.fixed img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid grey;
+}
+
+.author {
+    box-shadow: -10px 10px 10px red;
+    border-radius: 50%;
+    color: blue;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.addCart{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #9A7B4F;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1030;
+    bottom: 255px;
+    right: 62px;
+}
+.addCart h5{
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.addCart i{
+    position: fixed;
+    z-index: 1030;
+    bottom: 220px;
+    right: 35px;
+    padding: 20px;
+    font-size: 30px;
+    color: #9A7B4F;
+    cursor: pointer;
+}

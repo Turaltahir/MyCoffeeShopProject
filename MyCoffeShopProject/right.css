@@ -1,0 +1,69 @@
+.riht h3{
+    font-size: 25px;
+    font-family: "Roboto",Arial,sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(80, 12, 12);
+}
+
+.card-1 {
+    margin: 30px 0;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+}
+.card-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(54, 14, 14);
+    font-size: 20px;
+    font-family: "Roboto",Arial,sans-serif;
+} 
+
+.card-1 img {
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-1 .card-desc,
+.desc-icon {
+    margin-left: 10px;
+}
+
+.card-info .card-icon {
+    margin-left: 60px;
+   
+}
+.card-info{
+    font-size: 15px;
+}
+.card-info p{
+    font-size: 13px;
+}
+
+.card-icon {
+    display: none;
+}
+
+.card-1:hover{
+    background-color: #9A7B4F;
+}
+
+.card-1:hover .card-icon {
+    background-color:white;
+    border-radius: 50%;
+    padding: 7px 10px;
+    font-size: 20px;
+    border: 2px solid rgb(210, 206, 206);
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    right: 60px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    color: rgb(199, 191, 191);
+}

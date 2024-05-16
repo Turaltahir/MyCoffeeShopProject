@@ -1,0 +1,18 @@
+.pag button{
+   width: fit-content;
+    outline: none;
+   padding: 10px 25px;
+    margin-top: 20px;
+   margin-right: 10px;
+   border-radius: 5px;
+   color: white;
+   font-size: 22px;
+   font-weight: 700;
+   background-color: #9A7B4F;
+   box-shadow: 5px 5px 5px brown;
+  
+}
+.pag button:hover{
+    background-color:#a7957c ;
+    cursor: pointer;
+}
